@@ -1,5 +1,6 @@
 FROM adoptopenjdk/openjdk11:jdk-11.0.11_9
 MAINTAINER Hamish Rickerby <hamish@beecastle.com>
+LABEL version="0.1.0"
 
 RUN apt-get update
 RUN apt-get install software-properties-common -y
